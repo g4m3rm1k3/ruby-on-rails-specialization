@@ -1,7 +1,7 @@
 # While Example
 a = 10
 
-while a > 9 
+while a > 5 
   puts a                      
   a -= 1 
   # same as a = a - 1
@@ -12,7 +12,7 @@ end
 # Until Example
 a = 9
 
-until a >= 10 
+until a >= 20 
   puts a                       
   a += 1                       
 end 

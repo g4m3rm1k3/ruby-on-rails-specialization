@@ -1,5 +1,6 @@
 def add(one, two)
-  one + two
+  return one + two
+
 end
 
 def divide(one, two)
@@ -7,8 +8,11 @@ def divide(one, two)
   one / two
 end
 
-puts add(2, 2) # => 4
+
+first_var = add(2, 2) # => 4
+second_var = add("Hello ", "World")
 puts divide(2, 0) # => I don't think so 
 puts divide(12, 4) # => 3
-
+puts first_var
+puts second_var
 

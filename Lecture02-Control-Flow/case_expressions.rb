@@ -1,4 +1,4 @@
-age = 21
+age = 2
 
 case # 1ST FLAVOR
   when age >= 21
@@ -11,6 +11,7 @@ end
 # => You can buy a drink
 
 name = 'Fisher' 
+name = 'Smith'
 case name # 2nd FLAVOR
   when /fish/i then puts "Something is fishy here"
   when 'Smith' then puts "Your name is Smith"
